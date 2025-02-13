@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #1abc9c;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: white;
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.about-section, .projects-section, .contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+.contact-details p {
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
